@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIPASPRO</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/libs/fontawesome/css/all.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:200,400,600&display=swap"
+        rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><i class="fas fa-angle-double-right"></i>SIPASPRO</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto text-uppercase">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tentang">Tentang</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#jadwal">Jadwal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#profil">Profil</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <a href="login.html" class="btn btn-sm btn-primary my-2 my-sm-0 mr-2">Masuk</a>
+                        <a href="register.html" class="btn btn-sm btn-primary my-2 my-sm-0">Daftar</a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- end navbar -->
+    </header>
+
+    <main role="main">
+        <!-- Jumbotron -->
+        <div class="jumbotron" id="home">
+            <div class="container text-center">
+                <h1 class="display-4 text-uppercase font-weight-bold">Sistem Pendaftaran Audiens Seminar Proposal
+                </h1>
+                <p class="lead pb-3">Memberikan solusi untuk mahasiswa!</p>
+                <a class="btn btn-primary" href="login.html" role="button">Masuk</a>
+            </div>
+        </div>
+        <!-- end jumbotron -->
+
+        <!-- Brands -->
+        <section class="brands">
+            <div class="container">
+                <div class="row p-2 text-center">
+                    <div class="col-md">
+                        <img src="assets/img/brand/Logo iain 260x80.png" class="img-fluid">
+                    </div>
+                    <div class="col-md">
+                        <img src="assets/img/brand/Logo ptik 260x80.png" class="img-fluid">
+                    </div>
+                    <div class="col-md">
+                        <img src="assets/img/brand/Logo mrd 260x80.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Brands -->
+
+        <!-- About -->
+        <div class="container">
+            <hr class="featurette-divider" id="tentang">
+
+            <div class="row featurette">
+                <div class="col-md-7 my-auto">
+                    <h2 class="featurette-heading mb-3">Media pilihan baru</h2>
+                    <p class="lead">Sistem ini menjadi pilihan baru yang bertujuan untuk membantu anda sebagai mahasiswa
+                        dalam berpartisipasi di
+                        dalam kegiatan seminar proposal sebagai audiens</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="img-fluid rounded" src="assets/img/about/1.jpg" height="100%" width="100%">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2 my-auto">
+                    <h2 class="featurette-heading mb-3">Akses lebih mudah dan dimana saja.</h2>
+                    <p class="lead">Dapat akses dimana saja dan kapan pun, dengan jadwal dan info terupdate, anda tidak
+                        perlu khawatir lagi ketinggalan informasi.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img class="img-fluid rounded" src="assets/img/about/2.jpg" alt="" height="100%" width="100%">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 my-auto">
+                    <h2 class="featurette-heading mb-3">Melengkapi persyaratan sempro jauh lebih gampang.</h2>
+                    <p class="lead">Anda tidak perlu takut lagi kehilangan kartu tanda menghadiri sempro, semua sudah di
+                        lengkapi di dalam sistem ini.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="img-fluid rounded" src="assets/img/about/3.jpg" alt="" height="100%" width="100%">
+                </div>
+            </div>
+
+            <hr class="featurette-divider" id="jadwal">
+        </div>
+        <!-- End About -->
+
+        <!-- Jadwal -->
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-5">
+                    <h2 class="mb-3">Jadwal Terdekat</h2>
+                    <p class="lead pb-5 mb-3">Informasi terbaru dari jadwal seminar proposal.</p>
+                    <div class="d-none d-lg-block">
+                        <a href="#" class="btn btn-primary shadow">Lihat List Jadwal</a>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="bg-white shadow rounded">
+                                <a href="#">
+                                    <img src="http://placehold.co/303x303" class="img-fluid card-img-top"
+                                        alt="seminar proposal">
+                                </a>
+                                <div class="m-4 pb-4">
+                                    <span class="badge badge-success mb-3">Tersedia</span>
+                                    <a href="#">
+                                        <h5>Seminar Proposal</h5>
+                                    </a>
+                                    <small class="text-muted">Oleh : Muhammad Fulan</small>
+                                    <span class="text-muted d-block mb-2 mt-3">
+                                        <i class="fas fa-calendar-alt mr-3"></i>
+                                        01 Januari 2020
+                                    </span>
+                                    <span class="text-muted d-block mb-2">
+                                        <i class="fas fa-clock mr-3"></i>
+                                        08:00 - 10:00
+                                    </span>
+                                    <span class="text-muted d-block mb-2">
+                                        <i class="fas fa-map-marker-alt mr-3"></i>
+                                        Ruang i10
+                                    </span>
+                                    <span class="text-muted d-block mb-2">
+                                        <i class="fas fa-user-plus mr-3"></i>
+                                        Kuota 30
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="bg-white shadow rounded">
+                                <a href="#">
+                                    <img src="http://placehold.co/303x303" class="img-fluid card-img-top" alt="...">
+                                </a>
+                                <div class="m-4 pb-4">
+                                    <span class="badge badge-success mb-3">Tersedia</span>
+                                    <a href="#">
+                                        <h5>Seminar Proposal</h5>
+                                    </a>
+                                    <small class="text-muted">Oleh : Muhammad Fulan</small>
+                                    <span class="text-muted d-block mb-2 mt-3">
+                                        <i class="fas fa-calendar-alt mr-3"></i>
+                                        01 Januari 2020
+                                    </span>
+                                    <span class="text-muted d-block mb-2">
+                                        <i class="fas fa-clock mr-3"></i>
+                                        08:00 - 10:00
+                                    </span>
+                                    <span class="text-muted d-block mb-2">
+                                        <i class="fas fa-map-marker-alt mr-3"></i>
+                                        Ruang i10
+                                    </span>
+                                    <span class="text-muted d-block mb-2">
+                                        <i class="fas fa-user-plus mr-3"></i>
+                                        Kuota 30
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-lg-none mt-3 mb-5 mx-auto">
+                    <a href="#" class="btn btn-primary shadow">Lihat List Jadwal</a>
+                </div>
+            </div>
+
+            <hr class="featurette-divider" id="profil">
+        </div>
+        <!-- End Jadwal -->
+
+        <!-- Profil -->
+        <section class="designer p-5">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col">
+                        <h3>Profil Kami</h3>
+                        <p class="lead">Kenali kami lebih dekat.</p>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-6 col-sm-4 text-center">
+                        <figure class="figure">
+                            <img src="http://placehold.co/130x130" class="figure-img img-fluid rounded-circle">
+                            <figcaption class="figure-caption text-center">
+                                <h6>Hari Antoni Musril, S.Kom., M.Kom</h6>
+                                <p>Dosen Pembimbing</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-6 col-sm-4 text-center">
+                        <figure class="figure">
+                            <img src="http://placehold.co/130x130" class="figure-img img-fluid rounded-circle">
+                            <figcaption class="figure-caption text-center">
+                                <h6>Muhammad Risqi Darmawan</h6>
+                                <p>Mahasiswa</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- End Profil -->
+
+        <!-- Footer -->
+        <footer class="border-top p-5 bg-dark">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-1">
+                        <a class="navbar-brand text-white" href="#"><i
+                                class="fas fa-angle-double-right"></i>SIPASPRO</a>
+                    </div>
+                    <div class="col-4 text-right">
+                        <a href="">
+                            <img src="assets/img/social/fb.png">
+                        </a>
+                        <a href="">
+                            <img src="assets/img/social/telegram.png">
+                        </a>
+                        <a href="">
+                            <img src="assets/img/social/wa.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="row mt-3 justify-content-between">
+                    <p class="text-white mx-auto">All Rights Reserved by MRD &COPY; 2020.</p>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+    </main>
+    <!-- Javascript -->
+    <!-- JQuery -->
+    <script src="assets/libs/jquery/jquery-3.4.1.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/libs/bootstrap/js/bootstrap.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
